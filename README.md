@@ -1,6 +1,6 @@
 # WEB103 Prework - *👉🏿 Name of App Here*
 
-Submitted by: **👉🏿 your name here**
+Submitted by: ** Jerry Chang **
 
 About this web app: **👉🏿 app description here**
 
