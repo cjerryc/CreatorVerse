@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img width="400" height="221" alt="Video Walkthrough" src="https://github.com/user-attachments/assets/b5666e52-4952-4d08-8aff-afce7fa42024" />
+<img width="800" height="442" alt="Video Walkthrough" src="https://github.com/user-attachments/assets/b5666e52-4952-4d08-8aff-afce7fa42024" />
 
 GIF created with freeconvert.com
 
