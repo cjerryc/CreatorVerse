@@ -2,7 +2,7 @@
 
 Submitted by: ** Jerry Chang **
 
-About this web app: **👉🏿 app description here**
+About this web app: ** A basic Web App that supports CRUD operations to show off a library of Creators for users to view and edit! **
 
 Time spent: ** 10 ** hours
 
