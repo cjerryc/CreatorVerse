@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import supabaseClient from "../client";
 
-const EditCreator = () => {
+const EditCreator = ({ onSave }) => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -12,7 +12,6 @@ const EditCreator = () => {
     imageURL: "",
   });
 
-  // fetch the existing creator to pre-fill the form with existing information
   useEffect(() => {
     const fetchCreator = async () => {
       const { data, error } = await supabaseClient
@@ -24,7 +23,7 @@ const EditCreator = () => {
       if (error) {
         console.error(error);
       } else {
-        setFormData(data); // pre-fill the form with existing values
+        setFormData(data);
       }
     };
 
@@ -40,13 +39,28 @@ const EditCreator = () => {
 
     const { error } = await supabaseClient
       .from("creators")
-      .update(formData)       // send the updated fields (NOT Insert)
-      .eq("id", id);          // update the row with this id in Db
+      .update(formData)
+      .eq("id", id);
 
     if (error) {
       console.error(error);
     } else {
-      navigate(`/creator/${id}`); // go back to this creator's page
+      await onSave();  // re-fetch the updated list in App to display changes
+      navigate(`/creator/${id}`);
+    }
+  };
+
+  const handleDelete = async () => {
+    const { error } = await supabaseClient
+      .from("creators")
+      .delete()
+      .eq("id", id);
+
+    if (error) {
+      console.error(error);
+    } else {
+      await onSave();   // re-fetch so deleted creator disappears from list
+      navigate("/");
     }
   };
 
@@ -85,6 +99,9 @@ const EditCreator = () => {
           onChange={handleChange}
         />
         <button type="submit">Save Changes</button>
+        <button type="button" onClick={handleDelete}>
+          Delete Creator
+        </button>
       </form>
     </div>
   );

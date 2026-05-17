@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import supabaseClient from "../client";
 
-const AddCreator = () => {
+const AddCreator = ({ onSave }) => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
@@ -25,6 +25,7 @@ const AddCreator = () => {
     if (error) {
       console.error(error);
     } else {
+      await onSave();
       navigate("/");
     }
   };

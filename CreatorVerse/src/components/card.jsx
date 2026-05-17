@@ -2,8 +2,10 @@
 // Creates a Card component that takes in a creator object and 
 // displays the creator's name, description, and a link to their content.
 
+import { Link } from "react-router-dom";
+
 const Card = ({ creator }) => {
-  const { name, url, description, imageURL } = creator;
+  const { id, name, url, description, imageURL } = creator;
 
   return (
     <div className="card">
