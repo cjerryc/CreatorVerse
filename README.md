@@ -42,6 +42,7 @@ GIF created with freeconvert.com
 [Youtube Walkthrough](https://youtu.be/Uwgma14hlBI?si=64rdH3ywDuA82Am0)
 
 ## Notes
+Thinking through portions of the design was a bit tricky. Namely:
 Navigating through the pages and creating the routes between them for logical flow.
 Making sure that the main app view would show the updated list of creators upon an edit or insert to re-fetch data from Supabase.
 
