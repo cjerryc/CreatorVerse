@@ -1,10 +1,10 @@
-# WEB103 Prework - *👉🏿 Name of App Here*
+# WEB103 Prework - * CreatorVerse *
 
 Submitted by: ** Jerry Chang **
 
 About this web app: **👉🏿 app description here**
 
-Time spent: **👉🏿 X** hours
+Time spent: ** 10 ** hours
 
 ## Required Features
 
@@ -23,26 +23,22 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Picocss is used to style HTML elements
-- [ ] The content creator items are displayed in a creative format, like cards instead of a list
+- [X] Picocss is used to style HTML elements
+- [X] The content creator items are displayed in a creative format, like cards instead of a list
 - [X] An image of each content creator is shown on their content creator card
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [ ] 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='<img width="400" height="221" alt="Screen Recording 2026-05-17 at 2 57 14 AM" src="https://github.com/user-attachments/assets/e3fa25ab-3bc0-4436-bbbc-12773ec6f4be" />
+' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with freeconvert.com
 
 ## Notes
 Navigating through the pages and creating the routes between them for logical flow.
@@ -50,7 +46,7 @@ Making sure that the main app view would show the updated list of creators upon 
 
 ## License
 
-Copyright [👉🏿 yyyy] [👉🏿 name of copyright owner]
+Copyright
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
