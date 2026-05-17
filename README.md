@@ -29,14 +29,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] 
+* [X] 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+<img width="400" height="221" alt="Video Walkthrough" src="https://github.com/user-attachments/assets/b5666e52-4952-4d08-8aff-afce7fa42024" />
 
-👉🏿<img src='<img width="400" height="221" alt="Screen Recording 2026-05-17 at 2 57 14 AM" src="https://github.com/user-attachments/assets/e3fa25ab-3bc0-4436-bbbc-12773ec6f4be" />
-' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with freeconvert.com
 
