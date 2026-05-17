@@ -4,9 +4,8 @@ import Card from "../components/Card";
 const ShowCreators = ({ creators }) => {
   return (
     <div className="show-creators">
-      <Link to="/new">
-        <button>Add Creator</button>
-      </Link>
+      <h1>Creators</h1>
+      <div className="grid">
       {creators.length === 0 ? (
         <p>No creators yet. Be the first to add one!</p>
       ) : (
@@ -14,6 +13,10 @@ const ShowCreators = ({ creators }) => {
           <Card key={creator.id} creator={creator} />
         ))
       )}
+      </div>
+      <Link to="/new" role="button">
+        <button>Add Creator</button>
+      </Link>
     </div>
   );
 };

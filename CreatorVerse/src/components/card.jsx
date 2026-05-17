@@ -8,7 +8,7 @@ const Card = ({ creator }) => {
   const { id, name, url, description, imageURL } = creator;
 
   return (
-    <div className="card">
+    <article>
       {imageURL && (
         <img src={imageURL} alt={name} />
       )}
@@ -17,11 +17,11 @@ const Card = ({ creator }) => {
       <a href={url} target="_blank" rel="noopener noreferrer">
         {url}
       </a>
-      <div className="card-links">
-        <Link to={`/creator/${id}`}>View</Link>
-        <Link to={`/creator/${id}/edit`}>Edit</Link>
+      <div style={{ display: "flex", gap: "16px", marginTop: "8px" }}>
+        <Link to={`/creator/${id}`} role="button" style={{ width: "fit-content" }}>View</Link>
+        <Link to={`/creator/${id}/edit`} role="button" className="secondary" style={{ width: "fit-content" }}>Edit</Link>
       </div>
-    </div>
+    </article>
   );
 };
 

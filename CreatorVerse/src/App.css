@@ -182,3 +182,18 @@
     border-right-color: var(--border);
   }
 }
+
+.show-creators {
+  display: flex;
+  flex-direction: column;
+}
+
+.show-creators .grid {
+  flex: 1;
+}
+
+.add-button {
+  margin-top: auto;
+  display: block;
+  width: fit-content;
+}
