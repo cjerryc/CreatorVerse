@@ -38,6 +38,7 @@ Here's a walkthrough of implemented required features:
 <img width="400" height="221" alt="Video Walkthrough" src="https://github.com/user-attachments/assets/b5666e52-4952-4d08-8aff-afce7fa42024" />
 
 GIF created with freeconvert.com
+
 [Youtube Walkthrough](https://youtu.be/Uwgma14hlBI?si=64rdH3ywDuA82Am0)
 
 ## Notes
